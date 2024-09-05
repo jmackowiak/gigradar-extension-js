@@ -7,7 +7,7 @@ A simple Chrome extension which notifies about a new job posting on Upwork.
 ## installation
 
 1. Copy repository:
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/jmackowiak/gigradar-extension.git
 2. Open Chrome.
 3. Navigate to:
    chrome://extensions/.
