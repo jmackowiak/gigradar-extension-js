@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "gigradar",
+  "version": "1.0",
+  "description": "A simple Chrome extension which notifies about a new job posting on Upwork.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "notifications",
+    "webNavigation"
+  ],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icons/iconActive.png"
+  }
+}
